@@ -1,20 +1,35 @@
+import { H4style } from "./SecondSection.style";
+import wireframing from "./../images/Ellipse 31.png";
+import analysis from "./../images/Group 36.png";
+import prototype from "./../images/Group 34.png";
+import Design from "./../images/Group 33.png";
+import testing from "./../images/Testing.png";
+import Deployment from "./../images/Deployment.png";
+import Services from "./Services";
 import {
-  H4style,
-  Divstyle,
-  H3number,
-  H3style,
-  H3Container,
-  Ptag,
-  LeftDivContainer,
-  WholeContainer,
-  RightDivContainer,
+  WireframingAnime,
+  WireframingContainer,
+  Line,
+  AnalysisContainer,
+  AnalysisAnim,
+  Line2,
+  PrototypeAnim,
+  Line3,
+  PrototypeContainer,
+  Line4,
+  Testing,
+  TestingAnim,
+  Line5,
+  DeploymentDiv,
+  DeploymentAnim,
+  Line6,
+  SecondSectionContainer,
+  MainLine6
 } from "./SecondSection.style";
-
-const array = [{}, {}];
 
 function SecondSection() {
   return (
-    <div>
+    <SecondSectionContainer>
       <H4style>
         Services{" "}
         <span>
@@ -35,96 +50,82 @@ function SecondSection() {
           </svg>
         </span>
       </H4style>
-      <WholeContainer>
-        <LeftDivContainer>
-          <Divstyle>
-            <H3Container>
-              <H3number>02.</H3number>
-              <H3style> Wireframing</H3style>
-            </H3Container>
 
-            <Ptag>
-              Our experienced UI/UX designers will create wireframes to
-              visualize the client’s concept and ideas that clearly define the
-              user journey
-            </Ptag>
-          </Divstyle>
+      <div>
+        <AnalysisContainer>
+          <Line></Line>
+          <Line2></Line2>
+          <AnalysisAnim src={analysis} alt="image1" />
+          <Services
+            span={"01."}
+            h3={"Analysis"}
+            ptag={
+              "We work with our clients to gather the requirements, use cases, process specifications and conduct in-depth research on demographics, behavior patterns, and target audiences to refine your idea and create a strong app foundation"
+            }
+          />
+        </AnalysisContainer>
 
-          <Divstyle style={secondDiv}>
-            <H3Container>
-              <H3number>04.</H3number>
-              <H3style>Design&code</H3style>
-            </H3Container>
+        <WireframingContainer>
+          <Services
+            span={"02."}
+            h3={"Wireframing"}
+            ptag={
+              "Our experienced UI/UX designers will create wireframes to visualize the client’s concept and ideas that clearly define the user journey"
+            }
+          />
+          <WireframingAnime src={wireframing} alt="services"></WireframingAnime>
+        </WireframingContainer>
 
-            <Ptag>
-              We use Human Interface Guidelines and follow industry best
-              practices during our design and coding process. Our capabilities
-              deliver sleek and responsive apps to give you a competitive edge.
-            </Ptag>
-          </Divstyle>
+        <PrototypeContainer>
+          <Line3></Line3>
+          <PrototypeAnim src={prototype} alt="images3" />
+          <Services
+            span={"03."}
+            h3={"Prototyping"}
+            ptag={
+              "We lead the industry with best in class prototype design techniques that give you an earlier heads up on the look and feel, during the development cycle."
+            }
+          />
+        </PrototypeContainer>
 
-          <Divstyle>
-            <H3Container>
-              <H3number>06.</H3number>
-              <H3style> Deployment</H3style>
-            </H3Container>
-
-            <Ptag>
-              Once the app fulfills our client’s requirements and expectations,
-              we deploy the app according to the launch plan.
-            </Ptag>
-          </Divstyle>
-        </LeftDivContainer>
-
-        <RightDivContainer>
-          <Divstyle>
-            <H3Container>
-              <H3number>01.</H3number>
-              <H3style> Analysis</H3style>
-            </H3Container>
-
-            <Ptag>
-              We work with our clients to gather the requirements, use cases,
-              process specifications and conduct in-depth research on
-              demographics, behavior patterns, and target audiences to refine
-              your idea and create a strong app foundation
-            </Ptag>
-          </Divstyle>
-
-          <Divstyle style={secondDiv}>
-            <H3Container>
-              <H3number>03.</H3number>
-              <H3style>Prototyping&code</H3style>
-            </H3Container>
-
-            <Ptag>
-              We lead the industry with best in class prototype design
-              techniques that give you an earlier heads up on the look and feel,
-              during the development cycle.
-            </Ptag>
-          </Divstyle>
-
-          <Divstyle>
-            <H3Container>
-              <H3number>05.</H3number>
-              <H3style> Testing & QA</H3style>
-            </H3Container>
-
-            <Ptag>
-              We rigorously test the performance app performance to Industry
-              standards to evaluate its scalability, responsiveness, and
-              stability.
-            </Ptag>
-          </Divstyle>
-        </RightDivContainer>
-      </WholeContainer>
-    </div>
+        <WireframingContainer>
+          <Services
+            span={"04."}
+            h3={"Design & code"}
+            ptag={
+              "We use Human Interface Guidelines and follow industry best practices during our design and coding process. Our capabilities deliver sleek and responsive apps to give you a competitive edge"
+            }
+          />
+          <WireframingAnime src={Design} alt="image4" />
+          <Line4></Line4>
+        </WireframingContainer>
+        <Testing>
+          <Line5></Line5>
+          <TestingAnim src={testing} alt="image5" />
+          <Services
+            span={"05."}
+            h3={"Testing & QA"}
+            ptag={
+              "We rigorously test the performance app performance to Industry standards to evaluate its scalability, responsiveness, and stability."
+            }
+          />
+        </Testing>
+        <DeploymentDiv>
+          <Services
+            span={"06."}
+            h3={"Deployment"}
+            ptag={
+              "Once the app fulfills our client’s requirements and expectations, we deploy the app according to the launch plan."
+            }
+          />
+          <DeploymentAnim src={Deployment} alt="image6" />
+          <Line6></Line6>
+          <MainLine6></MainLine6>
+        </DeploymentDiv>
+      </div>
+    </SecondSectionContainer>
   );
 }
 
 export default SecondSection;
 
-const secondDiv = {
-  marginTop: 234,
-  marginBottom: 270,
-};

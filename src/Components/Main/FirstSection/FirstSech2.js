@@ -110,3 +110,7 @@ export const ContainerDiv = styled.div`
 export const Page1Styale = styled.img`
   margin-top: 160px;
 `;
+
+export const MainImage = styled.img`
+  width: 45.945%;
+`

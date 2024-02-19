@@ -1,6 +1,4 @@
 .container {
-  max-width: 1920px;
-  width: 100%;
   padding-top: 60px;
   background: linear-gradient(170deg, #292734 -9.44%, #000 100%);
 };

@@ -12,6 +12,7 @@ import FirstSech2, {
   ArrowStyle,
   ContainerDiv,
   Page1Styale,
+  MainImage
 } from "./FirstSech2";
 
 function FirstSection() {
@@ -36,7 +37,7 @@ function FirstSection() {
             <ArrowStyle src={line} alt="arrow"></ArrowStyle>
           </div>
         </TopDiv>
-        <img src={image} alt="imamge" />
+        <MainImage src={image} alt="imageq" />
         <Page1Styale src={Page1} alt="page indicato" />
       </ContainerDiv>
     </>
