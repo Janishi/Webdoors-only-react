@@ -39,7 +39,6 @@ export const LineContainer = styled.div`
 `;
 
 export const H3 = styled.h3`
-  font-family: Quicksand;
   font-size: 32px;
   font-weight: 500;
   line-height: 40px;
@@ -68,7 +67,6 @@ export const Circle = styled.div`
   margin-right: 20px;
 `;
 export const ButtonP = styled.p`
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
@@ -82,7 +80,6 @@ export const Image1 = styled.img`
   box-shadow: 10px 10px 40px 0px #2e2c3eb2;
 `;
 export const H3News = styled.h3`
-  font-family: Quicksand;
   font-size: 26px;
   font-weight: 700;
   line-height: 33px;
@@ -105,7 +102,6 @@ export const SubNewsContainer = styled.div`
   align-items: flex-end;
 `;
 export const SubNewsH3 = styled.h3`
-  font-family: Quicksand;
   font-size: 26px;
   font-weight: 700;
   line-height: 33px;
@@ -116,7 +112,6 @@ export const SubNewsH3 = styled.h3`
 `;
 
 export const SubNewsp1 = styled.p`
-  font-family: Quicksand;
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
@@ -127,7 +122,6 @@ export const SubNewsp1 = styled.p`
 `;
 
 export const SubNews2 = styled.p`
-  font-family: Quicksand;
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
@@ -146,7 +140,6 @@ export const SubNewsContainer2 = styled.div`
 `;
 
 export const SubNews22 = styled.p`
-  font-family: Quicksand;
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
@@ -160,7 +153,6 @@ export const SubNews22 = styled.p`
 `;
 
 export const SubNewsH32 = styled.h3`
-  font-family: Quicksand;
   font-size: 26px;
   font-weight: 700;
   line-height: 33px;
@@ -171,7 +163,6 @@ export const SubNewsH32 = styled.h3`
 `;
 
 export const SubNewsp12 = styled.p`
-  font-family: Quicksand;
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;

@@ -12,7 +12,6 @@ export const HeaderIcon = styled.div`
   margin-bottom: 15px;
 `;
 export const H3 = styled.h3`
-  font-family: Quicksand;
   font-size: 36px;
   font-weight: 500;
   line-height: 45px;
@@ -23,7 +22,6 @@ export const H3 = styled.h3`
 `;
 
 export const Ptag = styled.p`
-  font-family: Quicksand;
   font-size: 18px;
   font-weight: 500;
   line-height: 23px;

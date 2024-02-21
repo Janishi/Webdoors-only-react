@@ -96,6 +96,6 @@ const litagMargin = {
 };
 
 const header = {
-  marginLeft: "12.5%",
-  marginRight: "12.5%",
+  paddingLeft: "12.5%",
+  paddingRight: "12.5%",
 };

@@ -18,6 +18,6 @@ function Main() {
 export default Main;
 
 const styles = {
-  marginLeft: "12.5%",
-  marginRight: "12.5%",
+  paddingLeft: "12.5%",
+  paddingRight: "12.5%",
 };

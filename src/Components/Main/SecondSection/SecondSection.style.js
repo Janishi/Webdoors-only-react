@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const H4style = styled.h4`
   color: var(--Secondary, #d6d6d6);
   text-align: center;
-  font-family: Quicksand;
+  
   font-size: 3rem;
   font-style: normal;
   font-weight: 500;
@@ -13,7 +13,7 @@ export const H4style = styled.h4`
 `;
 
 export const SpanTag = styled.span`
-  font-family: Quicksand;
+  
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 23px;
@@ -23,7 +23,7 @@ export const SpanTag = styled.span`
 `;
 
 export const H3Tag = styled.h3`
-  font-family: Quicksand;
+  
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
@@ -35,7 +35,6 @@ export const H3Tag = styled.h3`
 `;
 
 export const Paragraph = styled.p`
-  font-family: Quicksand;
   font-size: 1rem;
   font-weight: 500;
   line-height: 20px;
@@ -172,19 +171,19 @@ export const Line6 = styled.div`
   height: 28.11px;
   position: absolute;
   right: 29rem;
-  top: -15px; 
+  top: -15px;
   background: linear-gradient(89.95deg, #f31f46 -0.4%, #fb634f 99.14%);
   transform: rotate(322deg);
 `;
 
 export const SecondSectionContainer = styled.div`
   margin-bottom: 160.28px;
-`
+`;
 export const MainLine6 = styled.div`
-  background: linear-gradient(90deg, #F31F46 0%, #111015 100%);
+  background: linear-gradient(90deg, #f31f46 0%, #111015 100%);
   height: 35.14px;
   width: 40%;
   position: relative;
   top: 70px;
   right: 30px;
-`
+`;

@@ -7,7 +7,6 @@ export const Container = styled.div`
 `
 
 export const H3 = styled.h3`
-  font-family: Quicksand;
   font-size: 24px;
   font-weight: 500;
   line-height: 30px;
@@ -18,7 +17,6 @@ export const H3 = styled.h3`
 `;
 
 export const ProjectH3 = styled.h3`
-  font-family: Quicksand;
   font-size: 32px;
   font-weight: 700;
   line-height: 30px;
@@ -30,7 +28,6 @@ export const ProjectH3 = styled.h3`
 `;
 
 export const PTag = styled.p`
-  font-family: Quicksand;
   font-size: 26px;
   font-weight: 400;
   line-height: 32px;

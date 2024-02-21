@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const FirstSectionH2 = styled.h2`
   color: #fff;
-  font-family: Quicksand;
+  
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -16,7 +16,6 @@ export default FirstSectionH2;
 export const FirstSectionH22 = styled.h2`
   opacity: 0.8;
   color: #bfb0ff;
-  font-family: Quicksand;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -34,7 +33,7 @@ export const H2Container = styled.div`
 
 export const SpanTag = styled.span`
   color: var(--text-link, #8f8cef);
-  font-family: Quicksand;
+  
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -45,7 +44,7 @@ export const SpanTag = styled.span`
 
 export const H1Tag = styled.h1`
   color: #fff;
-  font-family: Quicksand;
+
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -57,7 +56,7 @@ export const H1Tag = styled.h1`
 
 export const FirstP = styled.p`
   color: #c1d7ec;
-  font-family: Quicksand;
+  
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -86,7 +85,6 @@ export const TopDiv = styled.div`
 export const SecondP = styled.p`
   color: #ece6e1;
   text-align: justify;
-  font-family: Quicksand;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
