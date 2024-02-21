@@ -95,6 +95,7 @@ export const IconsContainer = styled.div`
 export const FooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  margin-bottom: 31.29px;
 `;
 
 export const FooterMobile = styled.span`

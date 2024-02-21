@@ -20,7 +20,7 @@ import facdbook from "./images/facebook.svg";
 import youtube from "./images/youtube.svg";
 import icon from "./images/icon.svg";
 import github from "./images/github.svg";
-import line from "./images/Group 83.png";
+
 
 import {
   Row1Container,
@@ -47,8 +47,6 @@ import {
   FooterNumbers,
   FooterNumbersContainer,
   Numbers,
-  Line,
-  LineContainer
 } from "./styles";
 
 function Footer() {
@@ -78,6 +76,7 @@ function Footer() {
             <Dmca src={dmca} alt="DMCA" />
             <Eba src={eba} alt="eba" />
           </div>
+          <Copyright>Copyright © 2018-2022 all rights reserved</Copyright>
         </Footer21Container>
 
         <div>
@@ -119,11 +118,6 @@ function Footer() {
           </FooterNumbersContainer>
         </div>
       </FooterContainer>
-
-      <LineContainer>
-        <Copyright>Copyright © 2018-2022 all rights reserved</Copyright>
-        <Line src={line} alt="line" />
-      </LineContainer>
     </Container>
   );
 }
